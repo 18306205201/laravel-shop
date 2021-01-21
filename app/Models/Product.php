@@ -22,7 +22,7 @@ class Product extends Model
         'on_sale' => 'boolean'
     ];
     // 与商品Sku关联
-    public function sku()
+    public function skus()
     {
         return $this->hasMany(ProductSku::class);
     }
