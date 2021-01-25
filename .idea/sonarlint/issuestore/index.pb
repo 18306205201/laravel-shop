@@ -106,3 +106,13 @@ S
 +app/Http/Controllers/ProductsController.php,d\6\d692772259b2b0d4c985fa5b890872f66765af1f
 X
 (resources/views/products/index.blade.php,d\8\d8a216e44bbf968eb309c23d00ce39732024d0d9
+Q
+!database/seeds/ProductsSeeder.php,a\7\a71281a5ad1689b9ae903a6e84933552c3c29d23
+Q
+!database/seeds/DatabaseSeeder.php,1\b\1bfb05dc7f9d1708ffc561e370a53ad2df3db646
+X
+(database/factories/ProductSkuFactory.php,3\c\3cd188d8d83ebb089b8790a33cc1ac8f1f3b3c48
+U
+%database/factories/ProductFactory.php,c\5\c56d49946e92bbae303113506e643ee2f558bb9c
+W
+'resources/views/products/show.blade.php,e\3\e36e105dcc217a8f69cbba25953d19f2aff8ffc8
