@@ -16,11 +16,13 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         // 往服务容器中注入 alipay 对象
-        $this->app->singleton('alipay', function() {
-            $config = config('pay.alipay');
+        $this->app->singleton('alipay', function () {
+            $config               = config('pay.alipay');
+            $config['notify_url'] = route('payment.alipay.notify');
+            $config['return_url'] = route('payment.alipay.return');
             // 判断当前是否为线上环境
             if (app()->environment() !== 'production') {
-                $config['mode'] = 'dev';
+                $config['mode']         = 'dev';
                 $config['log']['level'] = Logger::DEBUG;
             } else {
                 $config['log']['level'] = Logger::WARNING;
@@ -29,7 +31,7 @@ class AppServiceProvider extends ServiceProvider
             return Pay::alipay($config);
         });
 
-        $this->app->singleton('wechat_pay', function() {
+        $this->app->singleton('wechat_pay', function () {
             $config = config('pay.wechat');
             // 判断当前是否为线上环境
             if (app()->environment() !== 'production') {

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b9dc85-084a-4b07-b98e-d0ae6696f94b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/pay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/orders/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/orders/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +24,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>App\User</find>
-      <find>App\Models\User</find>
-      <find>110000</find>
-      <find>120000</find>
-      <find>360000</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>App\Models\User</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>F:\PHP\laravel-shop</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,7 +171,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -212,7 +199,7 @@
       <workItem from="1611544752238" duration="17960000" />
       <workItem from="1611571073685" duration="51000" />
       <workItem from="1611624950850" duration="23920000" />
-      <workItem from="1612575430903" duration="6161000" />
+      <workItem from="1612575430903" duration="9492000" />
     </task>
     <servers />
   </component>
@@ -224,5 +211,13 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="466" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.823@0.23.1440.823" timestamp="1612742945787" />
+    <state x="539" y="359" key="NewPhpFileDialog" timestamp="1612771198615">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="539" y="359" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1612771198615" />
+    <state x="221" y="68" key="SettingsEditor" timestamp="1612769559221">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="221" y="68" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1612769559221" />
   </component>
 </project>
