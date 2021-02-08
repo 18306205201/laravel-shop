@@ -12,6 +12,10 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 
 DB_PASSWORD=
+
+ALIPAY_PUBLIC_KEY=
+
+ALIPAY_PRIVATE_KEY=
 ## 执行 composer install
 composer install
 ## 生成应用 key
