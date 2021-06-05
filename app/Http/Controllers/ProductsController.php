@@ -10,7 +10,8 @@ class ProductsController extends Controller
 {
     public function index(Request $request)
     {
-        $builder = Product::query()->where('on_sale', true);
+        $builder = Product::query()->with(['property'])
+            ->where('on_sale', true);
         // 判断是否有 search 参数
         if ($search = $request->input('search', '')) {
             $like = '%' . $search . '%';

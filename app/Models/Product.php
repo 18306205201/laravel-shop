@@ -34,4 +34,18 @@ class Product extends Model
         }
         return \Storage::disk('public')->url($this->image);
     }
+
+    public function property()
+    {
+        return $this->hasMany(ProductProperty::class);
+    }
+
+    public function getGroupedPropertiesAttribute()
+    {
+        return $this->property
+            ->groupBy('name')
+            ->map(function($properties) {
+                return $properties->pluck('value')->all();
+            });
+    }
 }

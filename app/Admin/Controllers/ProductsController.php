@@ -67,6 +67,10 @@ class ProductsController extends AdminController
             $form->text('price', 'SKU 单价')->rules('required|numeric|min:0.01');
             $form->text('stock', '剩余库存')->rules('required|integer|min:0');
         });
+        $form->hasMany('property', '商品属性', function (Form\NestedForm $form) {
+            $form->text('name', '属性名')->required();
+            $form->text('value','属性值')->required();
+        });
         $form->saving(function (Form $form) {
             $form->model()->price = collect($form->input('skus'))->where(Form::REMOVE_FLAG_NAME, 0)->min('price') ?: 0;
         });

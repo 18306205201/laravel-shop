@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d2b9dc85-084a-4b07-b98e-d0ae6696f94b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/OrdersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Admin/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/orders/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/orders/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin/Controllers/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,12 +149,6 @@
       <path value="$PROJECT_DIR$/vendor/yansongda/pay" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="549" />
-    <option name="y" value="89" />
-    <option name="width" value="1440" />
-    <option name="height" value="812" />
-  </component>
   <component name="ProjectId" id="1o5TPAKpXWESN2OuW493Ng7rLYY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -199,7 +195,16 @@
       <workItem from="1611624950850" duration="23920000" />
       <workItem from="1612575430903" duration="17239000" />
       <workItem from="1613744314514" duration="2866000" />
-      <workItem from="1614173487432" duration="2893000" />
+      <workItem from="1614173487432" duration="3015000" />
+      <workItem from="1619713959157" duration="28000" />
+      <workItem from="1622900561134" duration="373000" />
+      <workItem from="1622901194692" duration="541000" />
+      <workItem from="1622901828711" duration="622000" />
+      <workItem from="1622902506760" duration="561000" />
+      <workItem from="1622903207099" duration="584000" />
+      <workItem from="1622903819409" duration="612000" />
+      <workItem from="1622904583576" duration="592000" />
+      <workItem from="1622905196191" duration="7000" />
     </task>
     <servers />
   </component>
